@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+/* For below 1024px screen width */
+@media screen and (max-width: 1024px) {
+  .category__btn {
+    width: 24%;
+    margin-bottom: 4px;
+    font-size: var(--font-regular);
+    padding: 10px 0;
+  }
+
+  .category__cnt {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+  }
+
+}
+/* For below 840px screen width */
+@media screen and (max-width: 840px) {
+  :root {
+    /* font-size */
+  --font-large: 2em;
+  --font-midium: 1.5em;
+  --font-regular: 1em;
+  --font-small: 0.9em;
+  --font-micro: 0.8em;
+  }
+
+  #navbar>div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .navbar__menu {
+    width: 100%;
+  }
+
+  .navbar__menulist {
+    width: 100%;
+    flex-direction: column;
+    background-color: var(--main-bg-color);
+    text-align: center;
+    display: none;
+  }
+
+  .navbar__menulist.open {
+    display: block;
+    
+  }
+
+  .navbar__menulist__item {
+    padding: 10px 0;
+    margin: 0;
+
+  }
+
+  .navbar__toggle-btn {
+    display: block;
+  }
+
+  .arrow-up {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    right: 25px;
+    bottom: 25px;
+    line-height: 30px;
+  }
+  
+}
+/* For below 768px screen width */
+@media screen and (max-width: 768px) {  
+
+  .home__img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .navbar__logo p {
+    left: 100px;
+  }
+
+  .about__major {
+    flex-direction: column;
+    margin: 30px 0;
+  }
+
+  .major {
+    margin: 30px;
+  }
+
+  #skills {
+    padding-bottom: 0px;
+  }
+  .skillbox {
+    flex-direction: column;
+  }
+
+  .category__btn {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+
+  .project {
+    flex-grow: 1;
+  }
+
+
+  .contact__form {
+    flex-direction: column;
+  }
+
+  .contact__btn {
+    display: inline-block;
+  }
+
+  .project__btn {
+    bottom: 0;
+  }
+}
+
+
+/* For below 480px screen width */
+@media screen and (max-width: 480px) {
+  :root {
+    --font-large: 2em;
+  }
+
+
+  #navbar {
+    height: 70px;
+  }
+  .navbar__logo img {
+    height: 70px;
+    margin-left: 10px;
+  }
+
+  .navbar__logo p {
+    left: 70px;
+  }
+
+  .navbar__toggle-btn {
+    top: 20px;
+
+  }
+
+  .contact__right {
+    flex-basis: 100%;
+    padding: 0px;
+  }
+  
+}
+
+/* For below 320px screen width */
+@media screen and (max-width: 320px) {
+
+  #navbar {
+    height: 60px;
+  }
+
+  .navbar__logo img {
+    height: 60px;
+    margin-left: 5px;
+  }
+
+  .navbar__toggle-btn {
+    top: 15px;
+
+  }
+
+}
